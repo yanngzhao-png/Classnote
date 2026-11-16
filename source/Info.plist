@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleName</key><string>Classnote</string>
+<key>CFBundleDisplayName</key><string>Classnote</string>
+<key>CFBundleIdentifier</key><string>com.classnote.mac</string>
+<key>CFBundleExecutable</key><string>Classnote</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>CFBundleIconFile</key><string>Classnote.icns</string>
+<key>CFBundleShortVersionString</key><string>0.6.5</string>
+<key>CFBundleVersion</key><string>18</string>
+<key>LSMinimumSystemVersion</key><string>14.0</string>
+<key>NSMicrophoneUsageDescription</key><string>Classnote 使用 Mac 麦克风记录课堂，在你开始课程后将音频发送至 OpenAI 转录并显示中文字幕。</string>
+<key>NSHighResolutionCapable</key><true/>
+</dict></plist>
