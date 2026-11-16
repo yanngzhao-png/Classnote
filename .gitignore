@@ -1,0 +1,14 @@
+.DS_Store
+.build/
+*.app/
+*.zip
+.env*
+*.wav
+*.pcm
+*.m4a
+*.mp3
+*.xcuserstate
+Records/
+Sessions/
+release-assets/
+*.log
