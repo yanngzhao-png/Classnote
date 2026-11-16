@@ -5,7 +5,7 @@
 ```sh
 cd source
 swift run ClassnoteChecks
-./build.sh
+zsh build.sh
 ```
 
 构建脚本在仓库根目录生成 Classnote.app 和 Classnote-macOS-arm64.zip，采用本地 ad-hoc 签名，不是 Apple 公证。构建前请退出同路径 App。当前发行包在 Apple 芯片机器构建；脚本 ZIP 名称固定含 arm64，在 Intel 机器上构建须另行验证并修正文件名，不能据文件名推断架构。
