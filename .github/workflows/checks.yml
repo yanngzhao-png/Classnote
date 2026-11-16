@@ -1,0 +1,17 @@
+name: Checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check Swift version
+        run: swift --version
+      - name: Regression checks
+        working-directory: source
+        run: swift run ClassnoteChecks
+      - name: Compile release
+        working-directory: source
+        run: swift build -c release --product Classnote
