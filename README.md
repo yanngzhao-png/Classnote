@@ -6,6 +6,22 @@
 
 Classnote 使用你自己的 OpenAI API Key。软件免费，API 调用可能产生费用。Notion 归档可选，不配置也能使用本地笔记。
 
+## 一眼看懂 Classnote
+
+**上课看双语原稿 → 下课整理中文笔记 → 按需归档到 Notion。**
+
+### App：英文原话与中文翻译放在一起
+
+![Classnote App：带时间戳的英文原话和中文翻译](docs/images/app-bilingual.png)
+
+App 实际界面，使用内置 Economics 演示课堂；无需提供真实录音即可体验。
+
+### Notion：先读中文要点，需要时展开课堂来源
+
+![Notion 笔记：中文概念、课堂例子、复习题与可展开的双语原话](docs/images/notion-notes.jpg)
+
+Notion 实际页面截图，展示概念、例子和复习题；第一条原话已展开，第二条保持折叠。内容是基于虚构课堂的人工排版示例，不代表本次 App 自动同步或 AI 生成结果。
+
 ## 能做什么
 
 - 使用 Mac 麦克风转录英文，并在同一阅读区域显示中文翻译。
