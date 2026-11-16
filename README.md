@@ -19,7 +19,7 @@ Classnote 使用你自己的 OpenAI API Key。软件免费，API 调用可能产
 
 当前版本 **0.6.5 / build 18**，安装包支持 **Apple 芯片 Mac，macOS 14 或更新版本**。不提供 Windows 版本或已验证的 Intel 安装包。
 
-发布后请在本仓库的 **Releases** 下载 `Classnote-v0.6.5-macOS-arm64.zip`；GitHub 的 Source code 压缩包是源码，不是安装包。
+请在 [Releases 下载页](https://github.com/yanngzhao-png/Classnote/releases/tag/v0.6.5) 下载 `Classnote-v0.6.5-macOS-arm64.zip`；GitHub 的 Source code 压缩包是源码，不是安装包。
 
 1. 解压，将 `Classnote.app` 拖入“应用程序”。
 2. 打开 App，在设置中填入自己的 API Key 和账户可用的模型，检查连接。
